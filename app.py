@@ -256,7 +256,7 @@ with col3:
     risk_color = "#d32f2f" if anomaly_rate > 10 else "#f57c00" if anomaly_rate > 5 else "#388e3c"
     st.markdown(f"""
     <div class="metric-card">
-        <h3 style="margin: 0; color: #6a1b9a;">📊 Tỷ lệ rủi ro</h3>
+        <h3 style="margin: 0; color: #6a1b9a;">📊 Tỷ lệ rủi ro </h3>
         <h2 style="margin: 5px 0; color: {risk_color};">{anomaly_rate:.2f}%</h2>
     </div>
     """, unsafe_allow_html=True)
